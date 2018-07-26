@@ -87,7 +87,10 @@ h5{
   background-size: cover
 }
 
+#header aside p i , #header p{
+  font-size: 30px
 
+}
 
 br {
   display: block;
@@ -127,8 +130,13 @@ br {
 
 }
 
-#structure article {
+#structure article p {
+  text-align: center;
   font-size: 1.7em;
+  
+}
+
+#structure article {
   text-align: center;
   border: 2px solid #eeeeee;
   border-radius: 20px;
@@ -181,15 +189,21 @@ br {
 
 }
 
+#footer address,h5,ul, ul a {
+  font-size: 1.5em;
+}
 #footer address {
   font-style: normal;
-  font-size: 0.8em;
   margin: 30px;
 }
 
 #footer ul {
-  color: #5798CA;
   list-style-type: none;
+
+}
+
+#footer ul li a{
+  color: #5798CA;
   text-decoration: none 
 }
 
@@ -207,7 +221,7 @@ br {
 }
 
 .col-middle {
-  padding: 0 5% 0 5%
+  padding: 0 5%;
 }
 
 .clearfix {
@@ -243,14 +257,14 @@ table {
 
 #schedule form div {
   width: 40%;
-  margin: 18px auto 0px auto;
-  font-size: 1.5em;
+  margin: 18px auto 10px auto;
   text-align: center;
-
+  
 }
 
 #schedule form label {
   display: block;
+  font-size: 1.5em;
   margin: 0px 0px 5px 0px;
   line-height: 15px;
 }
@@ -258,6 +272,7 @@ table {
 #schedule input, select{
   height: 20px;
   outline: none;
+  font-size: 1em;
   padding: 3px;
   width: 100%;
 }
